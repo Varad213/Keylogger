@@ -6,3 +6,5 @@ This is basic keylogger program made using Python.
       1) Pynput: used to monitor the keys pressed.
       2) SMTPlib: used to send the keylog file via email
 
+Demo: https://youtu.be/Gkjtf9B-RBo
+
